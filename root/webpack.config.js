@@ -5,6 +5,7 @@ module.exports = {
   mode: 'development',
   devServer: {
     port: 8000,
+    historyApiFallback: true,
   },
   module: {
     rules: [
